@@ -1,0 +1,84 @@
+const axios = require("axios");
+const {
+  GraphQLObjectType,
+  GraphQLInt,
+  GraphQLString,
+  GraphQLBoolean,
+  GraphQLList,
+  GraphQLSchema
+} = require("graphql");
+
+const BookType = new GraphQLObjectType({
+  name: 'Book',
+  fields: () => ({
+    id: { type: GraphQLString },
+    selfLink: { type: GraphQLString },
+    volumeInfo: { type: VolumeInfoType },
+    searchInfo: { type: SearchInfoType }
+  })
+});
+
+const VolumeInfoType = new GraphQLObjectType({
+  name: 'VolumeInfo',
+  fields: () => ({
+    title: { type: GraphQLString },
+    authors: { type: new GraphQLList(GraphQLString) },
+    publisher: { type: GraphQLString },
+    publishedDate: { type: GraphQLString },
+    pageCount: { type: GraphQLInt },
+    industryIdentifiers: { type: new GraphQLList(ISBNType) },
+    imageLinks: { type: ImageLinksType }
+  })
+});
+
+const ImageLinksType = new GraphQLObjectType({
+  name: 'ImageLinks',
+  fields: () => ({
+    smallThumbnail: { type: GraphQLString },
+    thumbnail: { type: GraphQLString }
+  })
+});
+
+const SearchInfoType = new GraphQLObjectType({
+  name: 'SearchInfo',
+  fields: () => ({
+    textSnippet: { type: GraphQLString }
+  })
+});
+
+const ISBNType = new GraphQLObjectType({
+  name: 'ISBNType',
+  fields: () => ({
+    type: { type: GraphQLString },
+    identifier: { type: GraphQLString }
+  })
+});
+
+const RootQuery = new GraphQLObjectType({
+  name: 'RootQueryType',
+  fields: {
+    books: {
+      type: new GraphQLList(BookType),
+      args: {
+        queryWord: { type: GraphQLString }
+      },
+      resolve(parent, args) {
+        return axios.get(`https://www.googleapis.com/books/v1/volumes?q=${args.queryWord}`)
+          .then(res => res.data.items)
+      }
+    },
+    book: {
+      type: BookType,
+      args: {
+        ISBN: { type: GraphQLString }
+      },
+      resolve(parent, args) {
+        return axios.get(`https://www.googleapis.com/books/v1/volumes?q=${args.ISBN}`)
+          .then(res => res.data.items[0])
+      }
+    }
+  }
+});
+
+module.exports = new GraphQLSchema({query: RootQuery});
+

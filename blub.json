@@ -1,0 +1,700 @@
+{
+ "kind": "books#volumes",
+ "totalItems": 433,
+ "items": [
+  {
+   "id": "mOQDYOM8TiYC",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/mOQDYOM8TiYC",
+   "volumeInfo": {
+    "title": "Das Beste an JavaScript",
+    "authors": [
+     "Douglas Crockford",
+     "Peter Klicman"
+    ],
+    "publisher": "O'Reilly Germany",
+    "publishedDate": "2008",
+    "pageCount": 163,
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=mOQDYOM8TiYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=mOQDYOM8TiYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    }
+   },
+   "searchInfo": {
+    "textSnippet": "Die meisten Programmiersprachen haben starke und schwache Seiten, und JavaScript hat deutlich mehr von den letzteren erwischt."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "H52lAwAAQBAJ",
+   "etag": "VL3FcHOahRo",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/H52lAwAAQBAJ",
+   "volumeInfo": {
+    "title": "JavaScript",
+    "subtitle": "Die universelle Sprache zur Web-Programmierung",
+    "authors": [
+     "Ralph Steyer"
+    ],
+    "publisher": "Carl Hanser Verlag GmbH  Co KG",
+    "publishedDate": "2014-04-03",
+    "description": "JAVASCRIPT // - Syntax und Konzeption von JavaScript - JavaScript im Umfeld des modernen Webs - Programmierung von leistungsfähige Rich Internet Applications (RIAs) - Fortgeschrittene Techniken rund um HTML5 Mit JavaScript steht die derzeit einzige Möglichkeit bereit, mit der Sie plattformübergreifend im WWW auf Seiten des Clients (also im Browser) programmieren können. Sie können damit beispielsweise eine Webseite an unterschiedliche Browser und Plattformeinstellungen des Besuchers anpassen, Benutzereingaben in einer Webseite plausibilisieren, Teile einer Webseite durch dynamisch nachgeladene Daten austauschen (AJAX), die Webseite nach dem Laden dynamisch verändern (DHTML) oder auch gezielt auf Aktionen eines Besuchers in der Webseite reagieren. Aber auch auf Serverseite oder bei mobilen Anwendungen gewinnt JavaSript an Bedeutung. Das vorliegende Buch vermittelt Ihnen zunächst das Basiswissen, um die Skriptsprache JavaScript in Verbindung mit internen JavaScript-Objekten und vor allem DOM-Objekten optimal zu nutzen. Berücksichtigt werden dabei auch die neuen Spracheigenschaften und Aspekte von HTML5/DOM5 sowie erweiterte JavaScript-Möglichkeiten wie Ausnahmebehandlung, Prototyping und die Umsetzung der objektorientierten Programmierung (OOP) in JavaScript sowie insbesondere AJAX. AUS DEM INHALT // Grundlagen und Umfeld von JavaScript / Vorbereitendes Basiswissen (HTML und XHTML mit den Neuerungen von HTML5, CSS mit den Neuerungen von CSS3, XML) / JavaScript in Webseiten einbinden / Elementare Grundstrukturen in JavaScript / Fehlersuche und -behandlung / Alles zu JavaScript und Objekten / Ereignisbehandlung / Ausnahmebehandlung / DHTML / AJAX / Fortgeschrittene JavaScript-Techniken (Objekterweiterung und Prototyping, Zeichnen mit Canvas- und SVG-Objekten, Local Storage, Push-Services, serverseitiges JavaScript mit Node.JS, Geodating etc.)",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9783446439474"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "3446439471"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 400,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=H52lAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=H52lAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "de",
+    "previewLink": "http://books.google.de/books?id=H52lAwAAQBAJ&printsec=frontcover&dq=javascript&hl=&cd=2&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=H52lAwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=H52lAwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "DE",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 23.99,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 23.99,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=H52lAwAAQBAJ&rdid=book-H52lAwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 2.399E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 2.399E7,
+       "currencyCode": "EUR"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "DE",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.de/books/download/JavaScript-sample-pdf.acsm?id=H52lAwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=H52lAwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "JAVASCRIPT // - Syntax und Konzeption von JavaScript - JavaScript im Umfeld des modernen Webs - Programmierung von leistungsfähige Rich Internet Applications (RIAs) - Fortgeschrittene Techniken rund um HTML5 Mit JavaScript steht die ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "ZPwyy9D1IhoC",
+   "etag": "gsYQ8nHuVV0",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/ZPwyy9D1IhoC",
+   "volumeInfo": {
+    "title": "Das JavaScript Codebook",
+    "authors": [
+     "Ralph Steyer"
+    ],
+    "publisher": "Pearson Deutschland GmbH",
+    "publishedDate": "2007",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "3827324513"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9783827324511"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 921,
+    "printType": "BOOK",
+    "averageRating": 4.0,
+    "ratingsCount": 1,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.0.1.0.preview.1",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=ZPwyy9D1IhoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=ZPwyy9D1IhoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "de",
+    "previewLink": "http://books.google.de/books?id=ZPwyy9D1IhoC&pg=PA125&dq=javascript&hl=&cd=3&source=gbs_api",
+    "infoLink": "http://books.google.de/books?id=ZPwyy9D1IhoC&dq=javascript&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Das_JavaScript_Codebook.html?hl=&id=ZPwyy9D1IhoC"
+   },
+   "saleInfo": {
+    "country": "DE",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "DE",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=ZPwyy9D1IhoC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "\u003cb\u003eJavaScript\u003c/b\u003e wird in allen relevanten modernen Webclients unterstützt. Dennoch \u003cbr\u003e\nsollten Sie sich nicht darauf verlassen, dass sie bei einem Besucher unterstützt \u003cbr\u003e\nwird. Ein auf Sicherheit bedachtes Webprojekt sollte niemals \u003cb\u003eJavaScript\u003c/b\u003e so&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "Vxu8IrW1ABgC",
+   "etag": "LwIs9VILB2I",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/Vxu8IrW1ABgC",
+   "volumeInfo": {
+    "title": "Das JavaScript Codebook",
+    "authors": [
+     "Ralf Beutler",
+     "Andreas Kansok"
+    ],
+    "publisher": "Pearson Deutschland GmbH",
+    "publishedDate": "2002",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "3827319730"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9783827319739"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 454,
+    "printType": "BOOK",
+    "averageRating": 1.0,
+    "ratingsCount": 1,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.0.2.0.preview.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=Vxu8IrW1ABgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=Vxu8IrW1ABgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "de",
+    "previewLink": "http://books.google.de/books?id=Vxu8IrW1ABgC&pg=PA196&dq=javascript&hl=&cd=4&source=gbs_api",
+    "infoLink": "http://books.google.de/books?id=Vxu8IrW1ABgC&dq=javascript&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Das_JavaScript_Codebook.html?hl=&id=Vxu8IrW1ABgC"
+   },
+   "saleInfo": {
+    "country": "DE",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "DE",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=Vxu8IrW1ABgC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "hkF3axKrDHQC",
+   "etag": "7B13mhBNHvI",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/hkF3axKrDHQC",
+   "volumeInfo": {
+    "title": "Java Script - in 21 Tagen",
+    "publisher": "Pearson Deutschland GmbH",
+    "publishedDate": "2004",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "3827267684"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9783827267689"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 764,
+    "printType": "BOOK",
+    "averageRating": 3.0,
+    "ratingsCount": 1,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.0.1.0.preview.1",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=hkF3axKrDHQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=hkF3axKrDHQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "de",
+    "previewLink": "http://books.google.de/books?id=hkF3axKrDHQC&printsec=frontcover&dq=javascript&hl=&cd=5&source=gbs_api",
+    "infoLink": "http://books.google.de/books?id=hkF3axKrDHQC&dq=javascript&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Java_Script_in_21_Tagen.html?hl=&id=hkF3axKrDHQC"
+   },
+   "saleInfo": {
+    "country": "DE",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "DE",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=hkF3axKrDHQC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "KyAHa6gmgUsC",
+   "etag": "sZ0KJ62Pihg",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/KyAHa6gmgUsC",
+   "volumeInfo": {
+    "title": "JavaScript",
+    "subtitle": "das umfassende Referenzwerk ; [behandelt Ajax und DOM-Scripting]",
+    "authors": [
+     "David Flanagan"
+    ],
+    "publisher": "O'Reilly Germany",
+    "publishedDate": "2007",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9783897214910"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "3897214911"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 1086,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "averageRating": 4.5,
+    "ratingsCount": 3,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.1.0.0.preview.1",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=KyAHa6gmgUsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=KyAHa6gmgUsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "de",
+    "previewLink": "http://books.google.de/books?id=KyAHa6gmgUsC&pg=PA51&dq=javascript&hl=&cd=6&source=gbs_api",
+    "infoLink": "http://books.google.de/books?id=KyAHa6gmgUsC&dq=javascript&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/JavaScript.html?hl=&id=KyAHa6gmgUsC"
+   },
+   "saleInfo": {
+    "country": "DE",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "DE",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=KyAHa6gmgUsC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Die folgende \u003cb\u003eJavaScript\u003c/b\u003e-Zeile weist zum Beispiel der Variablen i den Wert 2 zu: i \u003cbr\u003e\n= 2; Die folgende Zeile addiert i und 3 und weist das Ergebnis der neuen \u003cbr\u003e\nVariablen summe zu: var summe = i + 3; Diese beiden Codezeilen \u003cbr\u003e\nveranschaulichen&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "A-pfhNsgm8AC",
+   "etag": "jNiclewrTNQ",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/A-pfhNsgm8AC",
+   "volumeInfo": {
+    "title": "JavaScript Missing Manual",
+    "authors": [
+     "David Sawyer McFarland",
+     "Stefan Fröhlich"
+    ],
+    "publisher": "O'Reilly Germany",
+    "publishedDate": "2009",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9783897218796"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "3897218798"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 558,
+    "printType": "BOOK",
+    "categories": [
+     "JavaScript"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.1.0.0.preview.1",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=A-pfhNsgm8AC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=A-pfhNsgm8AC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "de",
+    "previewLink": "http://books.google.de/books?id=A-pfhNsgm8AC&pg=PA26&dq=javascript&hl=&cd=7&source=gbs_api",
+    "infoLink": "http://books.google.de/books?id=A-pfhNsgm8AC&dq=javascript&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/JavaScript_Missing_Manual.html?hl=&id=A-pfhNsgm8AC"
+   },
+   "saleInfo": {
+    "country": "DE",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "DE",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=A-pfhNsgm8AC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "So haben Sie vielleicht eine externe \u003cb\u003eJavaScript\u003c/b\u003e-Datei erstellt, die eine Drop-\u003cbr\u003e\ndown-Navigationsleiste steuert, und eine andere, mit der Sie eine elegante \u003cbr\u003e\nDiashow mit Fotos hinzufügen können (das ler- nen Sie auf Seite 276). Auf der \u003cbr\u003e\nSeite mit&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "PXa2bby0oQ0C",
+   "etag": "Idv6DeEIQQM",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/PXa2bby0oQ0C",
+   "volumeInfo": {
+    "title": "JavaScript: The Good Parts",
+    "subtitle": "The Good Parts",
+    "authors": [
+     "Douglas Crockford"
+    ],
+    "publisher": "\"O'Reilly Media, Inc.\"",
+    "publishedDate": "2008-05-08",
+    "description": "Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined. This authoritative book scrapes away these bad features to reveal a subset of JavaScript that's more reliable, readable, and maintainable than the language as a whole—a subset you can use to create truly extensible and efficient code. Considered the JavaScript expert by many people in the development community, author Douglas Crockford identifies the abundance of good ideas that make JavaScript an outstanding object-oriented programming language-ideas such as functions, loose typing, dynamic objects, and an expressive object literal notation. Unfortunately, these good ideas are mixed in with bad and downright awful ideas, like a programming model based on global variables. When Java applets failed, JavaScript became the language of the Web by default, making its popularity almost completely independent of its qualities as a programming language. In JavaScript: The Good Parts, Crockford finally digs through the steaming pile of good intentions and blunders to give you a detailed look at all the genuinely elegant parts of JavaScript, including: Syntax Objects Functions Inheritance Arrays Regular expressions Methods Style Beautiful features The real beauty? As you move ahead with the subset of JavaScript that this book presents, you'll also sidestep the need to unlearn all the bad parts. Of course, if you want to find out more about the bad parts and how to use them badly, simply consult any other JavaScript book. With JavaScript: The Good Parts, you'll discover a beautiful, elegant, lightweight and highly expressive language that lets you create effective code, whether you're managing object libraries or just trying to get Ajax to run fast. If you develop sites or applications for the Web, this book is an absolute must.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780596554873"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0596554877"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 172,
+    "printType": "BOOK",
+    "categories": [
+     "Computers"
+    ],
+    "averageRating": 4.5,
+    "ratingsCount": 45,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "0.6.6.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=PXa2bby0oQ0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=PXa2bby0oQ0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.de/books?id=PXa2bby0oQ0C&printsec=frontcover&dq=javascript&hl=&cd=8&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=PXa2bby0oQ0C&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=PXa2bby0oQ0C"
+   },
+   "saleInfo": {
+    "country": "DE",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 20.33,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 14.23,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=PXa2bby0oQ0C&rdid=book-PXa2bby0oQ0C&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 2.033E7,
+       "currencyCode": "EUR"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.423E7,
+       "currencyCode": "EUR"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "DE",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true
+    },
+    "pdf": {
+     "isAvailable": true
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=PXa2bby0oQ0C&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "If you develop sites or applications for the Web, this book is an absolute must."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "fUH85iGmc0oC",
+   "etag": "KfBQwj+O6+w",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/fUH85iGmc0oC",
+   "volumeInfo": {
+    "title": "Jetzt lerne ich JavaScript",
+    "subtitle": "Webprogrammierung mit JavaScript, (X)HTML, CSS und Co. ; [Start ohne Vorwissen]",
+    "authors": [
+     "Ralph Steyer"
+    ],
+    "publisher": "Pearson Deutschland GmbH",
+    "publishedDate": "2005",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "3827269849"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9783827269843"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 490,
+    "printType": "BOOK",
+    "averageRating": 3.0,
+    "ratingsCount": 1,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.1.2.0.preview.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=fUH85iGmc0oC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=fUH85iGmc0oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "de",
+    "previewLink": "http://books.google.de/books?id=fUH85iGmc0oC&pg=PA425&dq=javascript&hl=&cd=9&source=gbs_api",
+    "infoLink": "http://books.google.de/books?id=fUH85iGmc0oC&dq=javascript&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Jetzt_lerne_ich_JavaScript.html?hl=&id=fUH85iGmc0oC"
+   },
+   "saleInfo": {
+    "country": "DE",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "DE",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=fUH85iGmc0oC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Webprogrammierung mit \u003cb\u003eJavaScript\u003c/b\u003e, (X)HTML, CSS und Co. ; [Start ohne \u003cbr\u003e\nVorwissen] Ralph Steyer. Tabelle 2.1: HTML-4.0- Tags (Forts.) Die \u003cb\u003eJavaScript\u003c/b\u003e- \u003cbr\u003e\nSchlüsselwörter \u003cb\u003eJavaScript\u003c/b\u003e-Schlüsselwörter sind Bezeichner, die in \u003cb\u003eJavaScript\u003c/b\u003e \u003cbr\u003e\neine 425&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "4hrVOJnXh4wC",
+   "etag": "aYpBCTTq8i0",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/4hrVOJnXh4wC",
+   "volumeInfo": {
+    "title": "JavaScript und AJAX - Das umfassende Handbuch",
+    "authors": [
+     "Christian Wenz"
+    ],
+    "publisher": "Galileo Press",
+    "publishedDate": "2007",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9783898428590"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "3898428591"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 841,
+    "printType": "BOOK",
+    "averageRating": 5.0,
+    "ratingsCount": 1,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.1.0.0.preview.1",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=4hrVOJnXh4wC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=4hrVOJnXh4wC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "de",
+    "previewLink": "http://books.google.de/books?id=4hrVOJnXh4wC&pg=PA533&dq=javascript&hl=&cd=10&source=gbs_api",
+    "infoLink": "http://books.google.de/books?id=4hrVOJnXh4wC&dq=javascript&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/JavaScript_und_AJAX_Das_umfassende_Handb.html?hl=&id=4hrVOJnXh4wC"
+   },
+   "saleInfo": {
+    "country": "DE",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "DE",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=4hrVOJnXh4wC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Wenn Sie sich so weit durch das Buch hindurchgekämpft haben, werden Sie \u003cbr\u003e\nfestgestellt haben, dass man mit \u003cb\u003eJavaScript\u003c/b\u003e tolle Effekte realisieren kann. Wozu \u003cbr\u003e\nbraucht man überhaupt noch Java? Nun, Java besitzt wesentlich umfangreichere\u003cbr\u003e\n&nbsp;..."
+   }
+  }
+ ]
+}
