@@ -14,7 +14,8 @@ const BookType = new GraphQLObjectType({
     id: { type: GraphQLString },
     selfLink: { type: GraphQLString },
     volumeInfo: { type: VolumeInfoType },
-    searchInfo: { type: SearchInfoType }
+    searchInfo: { type: SearchInfoType },
+    language: { type: GraphQLString }
   })
 });
 
@@ -60,20 +61,22 @@ const RootQuery = new GraphQLObjectType({
     books: {
       type: new GraphQLList(BookType),
       args: {
-        queryWord: { type: GraphQLString }
+        queryWord: { type: GraphQLString },
+        language: { type: GraphQLString }
       },
       resolve(parent, args) {
-        return axios.get(`https://www.googleapis.com/books/v1/volumes?q=${args.queryWord}`)
+        return axios.get(`https://www.googleapis.com/books/v1/volumes?q=${args.queryWord}&langRestrict=${args.language}`)
           .then(res => res.data.items)
       }
     },
     book: {
       type: BookType,
       args: {
-        ISBN: { type: GraphQLString }
+        ISBN: { type: GraphQLString },
+        language: { type: GraphQLString }
       },
       resolve(parent, args) {
-        return axios.get(`https://www.googleapis.com/books/v1/volumes?q=${args.ISBN}`)
+        return axios.get(`https://www.googleapis.com/books/v1/volumes?q=${args.ISBN}&langRestrict=${args.language}`)
           .then(res => res.data.items[0])
       }
     }
