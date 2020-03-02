@@ -79,6 +79,13 @@ const RootQuery = new GraphQLObjectType({
         return axios.get(`https://www.googleapis.com/books/v1/volumes?q=${args.ISBN}&langRestrict=${args.language}`)
           .then(res => res.data.items[0])
       }
+    },
+    testbook: {
+      type: new GraphQLList(BookType),
+      resolve(parent, args) {
+        return axios.get("https://www.googleapis.com/books/v1/volumes?q=javascript")
+          .then(res => res.data.items)
+      }
     }
   }
 });
