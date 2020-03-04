@@ -1,18 +1,24 @@
 import React, { Component } from 'react';
 import { withApollo } from 'react-apollo';
+import { Link } from 'react-router-dom';
 import gql from 'graphql-tag';
-import { Query } from 'react-apollo';
 
-const TESTBOOK_QUERY = gql`
-  query testbookQuery {
-    testbook {
+const BOOKS_QUERY = gql`
+  query booksQuery($queryWord: String) {
+    books(queryWord: $queryWord) {
+      id,
       volumeInfo {
         title,
         authors,
-        publisher
-      },
-      searchInfo {
-        textSnippet
+        publishedDate,
+        publisher,
+        imageLinks {
+          thumbnail,
+          smallThumbnail
+        },
+        industryIdentifiers {
+          identifier
+        }
       },
       language
     }
@@ -29,7 +35,7 @@ export class Books extends Component {
   state = {
     value: '',
     showBooks: false,
-    data: {}
+    books: null
   };
 
   handleChange(event) {
@@ -38,12 +44,15 @@ export class Books extends Component {
 
   async handleSubmit(event) {
     event.preventDefault();
-
+  
+    const { value } = this.state;
     const { data } = await this.props.client.query({
-      query: TESTBOOK_QUERY
+      query: BOOKS_QUERY,
+      variables: { queryWord: value }
     });
+    const { books } = data;
 
-    console.log(testbook);
+    this.setState({ books });
   }
 
   render() {
@@ -56,16 +65,16 @@ export class Books extends Component {
           </label>
           <input type="submit" value="Submit" />
         </form>
-          {/* <Query query={TESTBOOK_QUERY}>
-          {
-            ({loading, error, data}) => {
-              if(loading) return <h4>Loading...</h4>;
-              if(error) console.log(error);
-              if(data) console.log(data);
-              return <h1>SUCCESS</h1>;
-            }
-          }
-        </Query> */}
+        { this.state.books && this.state.books.filter(book => book.volumeInfo.industryIdentifiers).map((book) => (
+          <Link to={`/book/${book.volumeInfo.industryIdentifiers[0].identifier}`}>
+            <div>
+              <h3>{ book.volumeInfo.title }</h3>
+              <h5>by{ book.volumeInfo.author }</h5>
+              <h5>{ book.volumeInfo.publisher }</h5>
+              <h5>{ book.volumeInfo.publishedDate }</h5>
+            </div>
+          </Link>
+        )) }
       </div>
     )
   }
