@@ -56,11 +56,12 @@ export class Books extends Component {
   }
 
   render() {
+
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
           <label>
-            Search for book:
+            Search for your book:
             <input value={this.state.value} onChange={this.handleChange} />
           </label>
           <input type="submit" value="Submit" />
